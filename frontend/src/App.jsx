@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import HeroSection from "./components/HeroSection";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <HeroSection />
       <About />
       <Services />
+      <Footer />
+      <Toaster />
     </Router>
   );
 };

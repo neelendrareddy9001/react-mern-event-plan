@@ -300,6 +300,12 @@ footer {
   justify-content: center;
   color: #fff;
 }
+footer button {
+  color: black;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
 footer .banner {
   max-width: 750px;
   display: flex;
